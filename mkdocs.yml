@@ -3,20 +3,20 @@ plugins:
   - search
 theme:
   palette:
-
     - scheme: slate
       primary: black
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/weather-sunny
         name: Switch to light mode
     - scheme: default
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-night
         name: Switch to dark mode
   name: material
   features:
     - navigation.instant
     - navigation.tracking
+    - navigation.sections
     - search.suggest
     - search.highlight
 extra:
@@ -26,10 +26,5 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/xfnnEVyCgv
 
-
 repo_url: https://github.com/KittyBorgX/hydralang
 repo_name: KittyBorgX/hydralang
-
-
-nav:
-- Getting started : index.md
