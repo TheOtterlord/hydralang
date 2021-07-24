@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@900&display=swap');
 
-* {
+body, html {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
@@ -54,7 +54,7 @@ a:hover {
 	height: 80%;
 	align-items: center;
 	justify-content: left;
-  margin-top: 3rem;
+  margin-top: 3rem !important;
 }
 
 .greeting {
