@@ -1,1 +1,4 @@
-# TODO: Add documentation quick links
+---
+template: docs.html
+title: Hydralang Documentation
+---

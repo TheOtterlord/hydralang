@@ -37,10 +37,10 @@ extra:
 
 nav:
   - Home: index.md
-  - Getting Started: getstarted/index.md
-  - Installation: getstarted/install.md
   - Documentation:
     - Docs: docs/index.md
-  - About: about.md
+    - Getting Started: docs/getstarted.md
+    - Installation: docs/install.md
+    - About: docs/about.md
 
 edit_uri: edit/main/docs
