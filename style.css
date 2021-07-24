@@ -28,7 +28,16 @@ body {
   display: flex;
   align-items: center;
   font-size: 1.7rem;
-  justify-content: space-evenly;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .main {
