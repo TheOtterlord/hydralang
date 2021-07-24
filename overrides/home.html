@@ -1,0 +1,129 @@
+<html>
+	<head>
+		<title>Hydralang</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+      @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@900&display=swap');
+
+      body, html {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+
+      body {
+        background: radial-gradient(
+          100% 193.91% at 0% 0%,
+          rgba(213, 41, 175, 0.69) 9.15%,
+          rgba(117, 77, 215, 0.502674) 87.14%,
+          rgba(87, 15, 240, 0.67) 100%
+        );
+        mix-blend-mode: normal;
+        height: 100%;
+        padding: 1rem;
+      }
+
+
+      .navbar {
+        display: grid;
+        width: 100%;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        font-family: "Poppins", sans-serif;
+        height: 5%;
+      }
+
+      .links ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        font-size: 1.7rem;
+        justify-content: space-around;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .main {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        height: 80%;
+        align-items: center;
+        justify-content: left;
+        margin-top: 3rem !important;
+      }
+
+      .greeting {
+        font-family: 'Exo 2', sans-serif;
+        color: white;
+        font-size: 200%;
+      }
+
+      .info {
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        font-size: small;
+        max-width: 20rem;
+      }
+      span {
+        color: black;
+        font-size: 200%;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+
+      .learn-more {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .learn-more-button {
+        border: none;
+        border-radius: 30px;
+        background-color: 1C121B;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        height: 3rem;
+        width: 50%;
+        font-size: larger;
+        font-weight: bolder;
+      }
+    </style>
+	</head>
+
+	<body>
+		<section class="landing-section">
+		<div class="navbar">
+			<h1 class="title-name">Hydralang</h1>
+			<div class="links">
+				<ul>
+					<li><a href="/getstarted/install">Install</a></li>
+					<li><a href="https://kittyborgx.github.io/hydralang/docs/">Docs</a></li>
+					<li><a href="https://github.com/KittyBorgX/hydralang/graphs/contributors">Contributors</a></li>
+			</div>
+		</div>
+		<div class="main">
+			<div class="greeting">
+				<h1>Welcome To <span><br>Hydralang</span></h1>
+			<div class="info">
+				<h2>A functional programming language with simple syntax and a very efficient thread management system</h2>
+			</div>
+			</div>
+		</div>
+		<div class="learn-more">
+			<button class="learn-more-button">Learn more</button>
+		</div>
+		</section>
+	</body>
+</html>

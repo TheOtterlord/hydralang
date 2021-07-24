@@ -1,7 +1,17 @@
 site_name: Hydralang
+site_author: KittyBorgX
+site_description: >-
+  A functional programming language with simple syntax and a very efficient thread management system.
+
+repo_name: KittyBorgX/hydralang
+repo_url: https://github.com/KittyBorgX/hydralang
+
+copyright: Copyright &copy; 2021 KittyBorgX
+
 plugins:
   - search
 theme:
+  custom_dir: overrides
   palette:
     - scheme: slate
       primary: black
@@ -14,11 +24,10 @@ theme:
         name: Switch to dark mode
   name: material
   features:
-    - navigation.instant
-    - navigation.tracking
     - navigation.sections
     - search.suggest
     - search.highlight
+
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -26,5 +35,12 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/xfnnEVyCgv
 
-repo_url: https://github.com/KittyBorgX/hydralang
-repo_name: KittyBorgX/hydralang
+nav:
+  - Home: index.md
+  - Getting Started: getstarted/index.md
+  - Installation: getstarted/install.md
+  - Documentation:
+    - Docs: docs/index.md
+  - About: about.md
+
+edit_uri: edit/main/docs
